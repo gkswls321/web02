@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>국립공원 소개 사이트 </title>
+	<style>
+		* { margin: 0;
+			font-family: "맑은 고딕", "Malgun Gothic", sans-serif;
+			 }
+		body{
+			width: 1100px;
+			margin: 0px auto;
+			background-image: url(mediasource/c.jpg);
+			background-size: cover;
+			color : white;
+		}
+		a { text-decoration: none; }
+		li { list-style: none; }
+		.navi a { color : white; }
+		#page{
+			background-color : 	#228B22;
+			margin: 40px 0px ;
+			padding: 50px;
+			border-radius: 50px ;
+		}
+	
+		.navi {
+			margin : 15px 0px;
+			border-top : 1px solid #47ece5;
+			border-bottom: 1px solid #47ece5;
+			height: 60px;
+		} 
+		.navi {
+			margin : 15px 0px;
+			border-top : 1px solid #47ece5;
+			border-bottom: 1px solid #47ece5;
+			height: 60px;
+		} 
+		.navi>ul>li{
+			display: inline-block;
+			padding: 5px 50px;
+			line-height: 50px;
+		}
+		.navi>ul>li:hover{
+			background: #47ece5;
+		}
+		.main{
+			float: left;
+			max-width: 700px;
+		}
+		.right{
+			float: right;
+			max-width: 230px;
+		}
+		footer{
+			margin: 40px 0px;
+			padding: 20px;
+			clear: both;
+		}
+</style>
+</head>
+<body>
+	<div id="page">
+	<header>
+		<h1> 국립공원 </h1>
+	</header>
+	<!--	<div class="box">01</div>
+		<div class="box">02</div>
+		<div class="box">03</div>
+		<div class="box">04</div>
+		<div class="box">05</div>
+		<span class="v">span1</span>
+		<span class="v">span2</span>
+		<span class="v">span3</span> -->
+
+	<nav>
+		<div class="navi">
+			<ul>
+				<li><a href="sub01.html">국립공원영상</a></li>
+				<li><a href="sub02.html">국립공원소개</a></li>
+				<li><a href="sub03.html">국립공원문화</a></li>
+				<li><a href="sub04.html">자료실</a></li>
+				<li><a href="sub05.html">커뮤니티</a></li>
+			</ul>
+		</div>
+	</nav>
+	<section class="main">
+		<br>
+		<article>
+			<audio src="mediasource/sound.mp3" controls autoplay></audio>
+		
+		<br>
+
+			<h3> 국립공원 홍보 영상</h3>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/FcP5rtwQd50" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+		</article>
+		<br>
+		<article>
+			
+
+			<h3>국립공원 사진 </h3>
+			<img src="mediasource/1.jpg" alt="" style="width: 150px; height: 100px;">
+			<img src="mediasource/2.jpg" alt="" style="width: 150px; height: 100px;">
+			<img src="mediasource/3.jpg" alt="" style="width: 150px; height: 100px;">
+			<img src="mediasource/4.jpg" alt="" style="width: 150px; height: 100px;">
+			<img src="mediasource/5.jpg" alt="" style="width: 150px; height: 100px;">
+			<img src="mediasource/6.jpg" alt="" style="width: 150px; height: 100px;">
+			<img src="mediasource/7.jpg" alt="" style="width: 150px; height: 100px;">
+			<img src="mediasource/8.jpg" alt="" style="width: 150px; height: 100px;">	
+		</article>
+	</section>
+	<aside class="right">
+		<h3>Login</h3>
+		<from action="#" method="post">
+			아이디 : <input type="text" name="id"> <br>
+			암호  : <input type="password" name="pw"> <br>
+			<input type="submit" value="로그인">
+			<input type="reset" value="취소"><br>
+		</from>
+	</aside>
+   	<footer>
+	Copyright@hanjingKim
+	</footer>
+	</body>
+</html>
